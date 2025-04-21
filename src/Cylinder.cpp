@@ -6,11 +6,11 @@
 # include <cmath>
 
 double Cylinder :: SurfaceArea(){
-    return 2*M_PI*radius*(radius+height);
+    return M_PI*2*radius*(radius+height);
 }
 
 double Cylinder :: Volume(){
-    return M_PI*radius*radius*height;
+    return 0.0;
 }
 
 double Cylinder :: Circumference(){
