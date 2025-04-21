@@ -10,7 +10,7 @@ double Cylinder :: SurfaceArea(){
 }
 
 double Cylinder :: Volume(){
-    return 0.0;
+    return M_PI*radius*radius*height;
 }
 
 double Cylinder :: Circumference(){
