@@ -5,7 +5,7 @@
 # include <iomanip>
 # include <cmath>
 
-double Cylinder :: SurfaceArea(){
+double Cylinder :: SurfaceArea(){ //SurfaceArea function
     return M_PI*2*radius*(radius+height);
 }
 
@@ -14,7 +14,7 @@ double Cylinder :: Volume(){
 }
 
 double Cylinder :: Circumference(){
-    return M_PI*2*radius;
+    return 2*M_PI*radius;
 }
 
 istream & operator>>(istream & in, Cylinder & cldr){
