@@ -5,12 +5,12 @@
 # include <iomanip>
 # include <cmath>
 
-double Cylinder :: SurfaceArea(){ //SurfaceArea function
+double Cylinder :: SurfaceArea(){
     return M_PI*2*radius*(radius+height);
 }
 
 double Cylinder :: Volume(){
-    return M_PI*radius*radius*height;
+    return 0.0;
 }
 
 double Cylinder :: Circumference(){
